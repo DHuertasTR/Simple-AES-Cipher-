@@ -12,7 +12,7 @@ def main():
     
     cpp=cp()
     
-    print(cpp.cipher('come','image.jpg'))
+    cpp.cipher('come','image.jpg')
     
     response= int(input("Ingrese 1 si desea cifrar un archivo, ingrese 2 si desea descifrar un archivo o CTR+c si desea salir"))
     if response==1:
